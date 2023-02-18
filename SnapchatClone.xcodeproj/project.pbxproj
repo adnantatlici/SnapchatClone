@@ -15,6 +15,10 @@
 		A43F4956299ACE63002BD382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43F4955299ACE63002BD382 /* Assets.xcassets */; };
 		A43F4959299ACE63002BD382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F4957299ACE63002BD382 /* LaunchScreen.storyboard */; };
 		A43F4961299ACECC002BD382 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A43F4960299ACECC002BD382 /* GoogleService-Info.plist */; };
+		A47535AA299ED1190080519C /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47535A9299ED1190080519C /* settingsVC.swift */; };
+		A47535AC299ED1260080519C /* uploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47535AB299ED1260080519C /* uploadVC.swift */; };
+		A47535AE299ED1520080519C /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47535AD299ED1520080519C /* feedVC.swift */; };
+		A47535B0299ED16F0080519C /* snapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47535AF299ED16F0080519C /* snapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		A43F4958299ACE63002BD382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A43F495A299ACE63002BD382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A43F4960299ACECC002BD382 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A47535A9299ED1190080519C /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		A47535AB299ED1260080519C /* uploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadVC.swift; sourceTree = "<group>"; };
+		A47535AD299ED1520080519C /* feedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		A47535AF299ED16F0080519C /* snapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snapVC.swift; sourceTree = "<group>"; };
 		BDB955F38EB85C5EF334D756 /* Pods_SnapchatClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,9 +82,9 @@
 		A43F494B299ACE63002BD382 /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
+				A47535A8299ED0F10080519C /* ViewController */,
 				A43F494C299ACE63002BD382 /* AppDelegate.swift */,
 				A43F494E299ACE63002BD382 /* SceneDelegate.swift */,
-				A43F4950299ACE63002BD382 /* SignInVC.swift */,
 				A43F4952299ACE63002BD382 /* Main.storyboard */,
 				A43F4955299ACE63002BD382 /* Assets.xcassets */,
 				A43F4957299ACE63002BD382 /* LaunchScreen.storyboard */,
@@ -84,6 +92,18 @@
 				A43F495A299ACE63002BD382 /* Info.plist */,
 			);
 			path = SnapchatClone;
+			sourceTree = "<group>";
+		};
+		A47535A8299ED0F10080519C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A43F4950299ACE63002BD382 /* SignInVC.swift */,
+				A47535AD299ED1520080519C /* feedVC.swift */,
+				A47535AB299ED1260080519C /* uploadVC.swift */,
+				A47535A9299ED1190080519C /* settingsVC.swift */,
+				A47535AF299ED16F0080519C /* snapVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		EE478C65F18FFB734DE87CED /* Frameworks */ = {
@@ -210,8 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47535AE299ED1520080519C /* feedVC.swift in Sources */,
 				A43F4951299ACE63002BD382 /* SignInVC.swift in Sources */,
+				A47535AA299ED1190080519C /* settingsVC.swift in Sources */,
 				A43F494D299ACE63002BD382 /* AppDelegate.swift in Sources */,
+				A47535AC299ED1260080519C /* uploadVC.swift in Sources */,
+				A47535B0299ED16F0080519C /* snapVC.swift in Sources */,
 				A43F494F299ACE63002BD382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

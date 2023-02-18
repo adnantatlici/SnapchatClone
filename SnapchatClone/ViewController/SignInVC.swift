@@ -9,11 +9,32 @@ import UIKit
 
 class SignInVC: UIViewController {
 
+    @IBOutlet weak var emailTF: UITextField!
+    
+    @IBOutlet weak var usernameTF: UITextField!
+    
+    @IBOutlet weak var passwordTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+
+
     }
 
+    
+    @IBAction func signIncLicked(_ sender: Any) {
+        
+        
+    }
+    
+    
+    @IBAction func registerClicked(_ sender: Any) {
+        
+        
+    }
+    
+    
 
 }
 
